@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "Syncing nvim config to repo" 
+cp -R ~/.config/nvim/ ./nvim/*
+
+echo "Syncing git config to repo"
+cp ~/.gitconfig ./gitconfig
