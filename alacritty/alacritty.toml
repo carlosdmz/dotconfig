@@ -1,0 +1,22 @@
+# Alacritty configuration file
+
+# Set terminal type
+[env]
+TERM = "xterm-256color"
+
+# Enable live config reload
+live_config_reload = "true"
+
+# Window settings
+[window]
+dimensions = { columns = 80, lines = 24 }
+
+# Font settings
+[font]
+normal = { family = "0xProto Nerd Font Mono" }
+size = 18
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_material_soft_dark.toml"
+]
