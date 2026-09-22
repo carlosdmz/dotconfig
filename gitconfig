@@ -1,0 +1,7 @@
+[user]
+  name = "Carlos Damázio"
+  email = "hello@carlosdmz.io"
+  signingkey = "4B776075"
+
+[commit]
+  gpgsign = true
