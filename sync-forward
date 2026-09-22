@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "syncing nvim configs and plugins to nvim..."
+
+cp -R ./nvim/* ~/.config/nvim/
